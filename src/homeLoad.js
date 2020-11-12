@@ -23,7 +23,7 @@ const addElementIds = ()=> {
 
 const setElementValues = () => {
     h1.textContent = 'Restaurant';
-    image.src = '../images/restaurant.jpg';
+    image.src = './images/restaurant.jpg';
     h2.textContent = 'Lorem Ipsum';
     text.textContent = "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent lobortis eros sed turpis eleifend, eget vulputate nunc aliquam. Maecenas at laoreet nisi, ut vehicula neque. Vivamus pharetra dolor in neque dapibus cursus. Maecenas vehicula venenatis augue nec ornare. Interdum et malesuada fames ac ante ipsum primis in faucibus. Ut elementum nibh sit amet pulvinar porta. Donec sodales quis neque sed aliquam. Sed euismod sed neque ac porta. Sed at diam sed dolor blandit tristique vel vel lectus. Curabitur molestie augue et nulla consequat interdum. Aliquam erat volutpat. Cras dui leo, sodales ac imperdiet ac, iaculis id velit. Interdum et malesuada fames ac ante ipsum primis in faucibus. ";
     footerText.textContent = 'fake@gmal.com | 123 road';

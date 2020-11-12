@@ -10,7 +10,7 @@ const appendElements = (main, mainDiv) => {
         cardDiv.appendChild(cardImage);
         cardDiv.appendChild(cardText);
         mainDiv.appendChild(cardDiv);
-        cardImage.src= '../images/food.jpg';
+        cardImage.src= './images/food.jpg';
         cardText.textContent = `Food : number ${i+1} | $${random(30)}`;
     }
     
